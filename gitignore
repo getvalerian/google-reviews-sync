@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Zip files — release zips are attached to GitHub releases, not stored in the repo
+*.zip
+
+# IDE / editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Node (if build tools are ever added)
+node_modules/
+
+# Logs
+*.log
