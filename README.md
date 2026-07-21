@@ -4,7 +4,9 @@ A WordPress plugin by [Valerian](https://getvalerian.com) that syncs Google Busi
 
 > **Originally built for Elementor**, but compatible with any page builder that supports ACF dynamic fields — including Bricks Builder, Divi, Beaver Builder, Oxygen, and GeneratePress. Since reviews are stored as a standard WordPress CPT with ACF fields, any tool that can query posts and display custom fields can display them.
 
+Built by [Valerian](https://getvalerian.com).
 
+---
 
 ## Why this plugin
 
@@ -46,8 +48,7 @@ In Google Cloud → Library, enable all four of these (they are separate APIs):
 |---|---|
 | My Business Account Management API | Lists your GBP accounts |
 | My Business Business Information API | Lists your locations |
-| My Business Reviews API | Required for GBP access approval |
-| **Google My Business API** | The actual reviews endpoint — legacy but still required |
+| **Google My Business API** | Handles reviews and all other GBP data. This is the one most people miss — do NOT look for a separate "My Business Reviews API", it doesn't exist as a standalone entry in Cloud Console |
 
 > **⚠️ GBP API access requires manual approval from Google.** Submit the request form at [developers.google.com/my-business/content/prereqs](https://developers.google.com/my-business/content/prereqs) as soon as you create the Cloud project — approval takes **7–10 business days** and Google will email the Cloud project owner when approved. Do not wait until the rest of the setup is done to submit this. Complete Steps 3–5 while you wait.
 >

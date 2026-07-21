@@ -68,11 +68,10 @@ Use these as the Query ID in Elementor's Loop Grid or Posts widget (Content → 
 = Google Cloud setup (required) =
 
 1. Create a project at [console.cloud.google.com](https://console.cloud.google.com)
-2. Enable these four APIs:
+2. Enable these three APIs:
    - My Business Account Management API
    - My Business Business Information API
-   - My Business Reviews API
-   - Google My Business API (legacy, but required for the reviews endpoint)
+   - Google My Business API (this handles reviews — do NOT look for a separate "My Business Reviews API", it doesn't exist as a standalone)
 3. Create OAuth 2.0 credentials (Web application type) and add the redirect URI shown in the plugin settings
 4. **Submit an access request** at [developers.google.com/my-business/content/prereqs](https://developers.google.com/my-business/content/prereqs) — Google requires manual approval for GBP API access. This takes 7–10 business days. You will receive an email when approved.
 

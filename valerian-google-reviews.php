@@ -3,7 +3,7 @@
  * Plugin Name:       Google Reviews Sync
  * Plugin URI:        https://github.com/getvalerian/google-reviews-sync
  * Description:       Pulls Google Business Profile reviews directly into WordPress as a Custom Post Type with ACF fields for full page builder control—no third-party widget styling constraints, no SaaS subscription for display-only use cases. Includes OAuth 2.0, full review pagination, AggregateRating rich snippet schema, and bundled shortcodes for common layouts.
- * Version:           2.6.3
+ * Version:           2.6.4
  * Requires at least: 6.0
  * Requires PHP:      8.0
  * Author:            Valerian
