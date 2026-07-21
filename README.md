@@ -4,7 +4,6 @@ A WordPress plugin by [Valerian](https://getvalerian.com) that syncs Google Busi
 
 > **Originally built for Elementor**, but compatible with any page builder that supports ACF dynamic fields — including Bricks Builder, Divi, Beaver Builder, Oxygen, and GeneratePress. Since reviews are stored as a standard WordPress CPT with ACF fields, any tool that can query posts and display custom fields can display them.
 
-Built by [Valerian](https://getvalerian.com).
 
 ---
 
